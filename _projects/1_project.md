@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Visibility and inclusion with an auditory transportation system
+description: A mechatronic project intended to support the School for Blind Children of Jalisco. This consists of the design of a bracelet and a system that, through Bluetooth modules and electronic beacons, are capable of recognizing routes and truck stops to facilitate the public life of the visually impaired community.
 img: assets/img/12.jpg
 importance: 1
 category: work
