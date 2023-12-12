@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: IMU and Deep Learning
+description: Exploring the feasibility of using inertial data to predict biomechanical parameters more accurately
 img:
-importance: 4
-category: research
+importance: 1
+category: 2023
 ---
 
 Every project has a beautiful feature showcase page.

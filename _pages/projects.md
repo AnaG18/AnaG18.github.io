@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [class projects, research]
+display_categories: [2023, 2022, 2021]
 horizontal: false
 ---
 

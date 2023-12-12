@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: hands-on data
+description: Developing the foundations of a haptic mouse for digital navigation
+img: assets/img/1.jpg
 importance: 3
-category: research
+category: 2023
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Tension in the RoboLoom
+description: Designing the tensioning mechanism for a robotic fully Jacquard loom for teaching matrix algebra
+img:
 importance: 3
-category: research
+category: 2022
 ---
 
 Every project has a beautiful feature showcase page.
