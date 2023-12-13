@@ -20,7 +20,7 @@ Hello! I'm Ana Paola Garcia Alonzo, from Mexico.
 
 I am pursuing my Bachelors from Tecnologico de Monterrey, Guadalajara Campus in Biomedical Engineering (2020-2024)
 
-Here are a few of the other activities that I love to do!
+I will try to update this site. 
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
