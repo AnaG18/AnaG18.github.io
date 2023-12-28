@@ -2,79 +2,27 @@
 layout: page
 title: IMU and Deep Learning
 description: Exploring the feasibility of using inertial data to predict biomechanical parameters more accurately
-img:
+img: assets/img/imu_poses.jpg
 importance: 1
 category: 2023
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The use of wearable sensors to monitor kinematics represents a promising opportunity for natural environment assessments in biomechanics. Inertial Measurement Units (IMU) are practical and accessible options to capture human movement in and out-of-lab settings, however, their readouts have been validated and developed under controlled conditions that are not generalizable across tasks.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The recent rise of deep learning models has shown a powerful capacity for unraveling complex patterns in data across different domains -ranging from image, speech recognition, and natural language processing. However, their performance in IMU-driven biomechanical assessments has not been fully explored, mostly due to large amounts of labeled data required to feed the models.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+The objective of this project is to study the feasibility of a generalized deep learning model that leverages IMU data for biomechanical estimation across different activities, particularly for tasks with limited data.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/imu_poses.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/imu_poster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    I had the opportunity to present our first findings as a poster the the 24th Annual Alberta Biomedical Engineering Conference on October 2023. 
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+This project was done in collaboration with the Neuromuscular Control and Biomechanics Laboratory at the University of Alberta under the supervision of Ramin Fathian, Aminreza Khandan, Milad Nazarahari, and Dr. Hossein Rouhani. 

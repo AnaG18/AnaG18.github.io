@@ -8,11 +8,11 @@ category: 2023
 giscus_comments: true
 ---
 
-This study aims to measure cognitive load in the delta band of brain waves and its impact on determining the most effective learning method for an individual.
+Advanced biomedical imaging techniques have proven to be in increasing demand. Alongside new methods like artificial intelligence and machine learning we built the prototype of a non-ionizing tomograph. This machine is built out of a pair stepper motors, wooden platforms, 9 infrared leds and 9 photoreceptors. 
 
-The project involved testing ten subjects in controlled conditions, focusing on the delta frequency band (1-4 Hz), which is associated with different levels of cognitive load during mental tasks. Using the Emotiv Epoc X® EEG device, brainwaves were measured under two conditions: a visual cognitive task and a reading cognitive task. The methodology included a comprehensive analysis of the EEG signal, filtering, and segmentation in the delta band, followed by statistical comparison. 
+The objective of this project was to get a hands on experience on how imaging devices work and furthermore learn processing techniques acuired with the same device. icantly impact educational strategies, offering a more tailored learning experience based on individual cognitive profiles.
 
-The study's results aim to provide insights into how cognitive load varies with different learning styles, potentially leading to more effective and personalized learning methods. Future improvements suggested include expanding the data sample, refining task protocols, and exploring statistical significance in other frequency bands. This innovative approach can significantly impact educational strategies, offering a more tailored learning experience based on individual cognitive profiles.
+We were able to refine the processing technique to reconstruct images with limited software. Throughout this process we were able to determine parameters such as Edge Spread Function (ESF), Line Spread Function (LSF), and Full Width at Half Maximum (FWHM) of our tomograph. The reconstruction of the images were achieved using interpolation, Fourier & Radon transforms, and filtering techniques such as Canny or Sobel. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
