@@ -2,7 +2,7 @@
 layout: page
 title: DIY Tomography 
 description: Development of an infrarred tomography and reconstruction of its images for image processing
-img: assets/img/1.png
+img: assets/img/tomography_drawing.png
 importance: 2
 category: 2023
 giscus_comments: true
