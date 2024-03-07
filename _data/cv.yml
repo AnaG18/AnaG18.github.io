@@ -47,22 +47,22 @@
   contents:
     - year: 2021
       items: 
-        - Academic Merit Award: Top %10 of class
+        - Academic Merit Award, Top %10 of class
     - year: 2022
       items: 
-        - Academic Merit Award: International and academic participation
+        - Academic Merit Award, International and academic participation
     - year: 2022
       items: 
-        - Creative Fund of the Art: 1 of 4 research groups awarded nationally 
+        - Creative Fund of the Art, 1 of 4 research groups awarded nationally 
     - year: 2022
       items: 
-        - Carnegie Mellon Summer Research Scholarship: 1 of 40 selected scholars
+        - Carnegie Mellon Summer Research Scholarship, 1 of 40 selected scholars
     - year: 2023
       items: 
-        - Carnegie Mellon Summer Research Scholarship: 1 of 40 selected scholars
+        - Carnegie Mellon Summer Research Scholarship, 1 of 40 selected scholars
     - year: 2023
       items: 
-        - MITACS Globalink Research Intern Award: Selected international scholar
+        - MITACS Globalink Research Intern Award, Selected international scholar
 
 - title: Academic Interests
   type: nested_list
